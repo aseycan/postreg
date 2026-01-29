@@ -1,0 +1,28 @@
+node_modules/
+
+# local tooling (Cursor/Claude)
+.claude/
+
+# build outputs
+dist/
+apps/*/dist/
+
+# local data
+apps/api/data/
+apps/api/apps/api/data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
