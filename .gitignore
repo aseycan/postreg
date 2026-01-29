@@ -3,6 +3,9 @@ node_modules/
 # local tooling (Cursor/Claude)
 .claude/
 
+# stray nested repo/submodule folder
+postreg/
+
 # build outputs
 dist/
 apps/*/dist/
