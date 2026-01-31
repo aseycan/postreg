@@ -53,6 +53,12 @@ if not exist "apps\web\node_modules" (
   if errorlevel 1 exit /b 1
 )
 
+REM Fix: Vite "Outdated Optimize Dep" (stale prebundle cache)
+if exist "apps\web\node_modules\.vite" (
+  echo [INFO] Vite optimize cache temizleniyor - apps\web\node_modules\.vite...
+  rmdir /s /q "apps\web\node_modules\.vite" >nul 2>&1
+)
+
 echo.
 echo [INFO] API + WEB dev sunuculari baslatiliyor...
 echo - API: npm --prefix apps/api run dev
