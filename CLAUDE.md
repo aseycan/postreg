@@ -21,7 +21,7 @@ start_project.bat
 
 # Or individually
 npm --prefix apps/api run dev    # Express API on http://localhost:8787 (tsx watch)
-npm --prefix apps/web run dev    # Vite on http://localhost:5173 (strictPort — fails if taken)
+npm --prefix apps/web run dev    # Vite on http://localhost:5177 (strictPort — fails if taken)
 
 # Web app
 npm --prefix apps/web run build  # tsc -b && vite build

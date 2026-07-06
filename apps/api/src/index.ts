@@ -112,7 +112,7 @@ async function snapshotWindows(): Promise<{ sockets: SocketRow[]; docker: Docker
     if (line.startsWith('Proto') || line.startsWith('Active')) continue
 
     // netstat formats:
-    // TCP  [::1]:5173  [::]:0  LISTENING  156284
+    // TCP  [::1]:5177  [::]:0  LISTENING  156284
     // UDP  0.0.0.0:1900  *:*  1234
     const parts = line.split(/\s+/)
     const proto = parts[0]
