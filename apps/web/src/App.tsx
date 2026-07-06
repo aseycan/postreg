@@ -337,7 +337,7 @@ function App() {
                   inputMode="numeric"
                   value={killPort}
                   onChange={(e) => setKillPort(e.target.value)}
-                  placeholder="5173"
+                  placeholder="5177"
                 />
                 <button
                   className="pill danger"
