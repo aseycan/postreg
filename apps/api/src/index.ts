@@ -33,8 +33,8 @@ type CmdResult = {
 
 function parsePortFromAddress(addr: string): number | null {
   // Examples:
-  // 127.0.0.1:5173
-  // [::1]:5173
+  // 127.0.0.1:5177
+  // [::1]:5177
   // [::]:0
   const m = addr.match(/:(\d+)\s*$/)
   if (!m) return null

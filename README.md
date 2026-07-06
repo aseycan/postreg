@@ -39,7 +39,7 @@ start_project.bat
 
 This script installs missing dependencies and starts both services:
 
-- Web UI: `http://localhost:5173`
+- Web UI: `http://localhost:5177`
 - API: `http://localhost:8787`
 
 ### Manual setup
